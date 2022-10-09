@@ -1,0 +1,71 @@
+body {
+  margin: 2vw;
+}
+.primTextContent {
+  display: flex;
+  flex-direction: row;
+}
+
+.hd_pr.b_primtxt,
+.hd_prUS.b_primtxt {
+  display: flex;
+  line-height: 30px;
+  height: 30px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: auto 10px;
+}
+
+.zh {
+  display: block;
+  margin: 5px 0;
+}
+
+.ads {
+  display: block;
+}
+
+.sentenceContent {
+  margin: 10px 0;
+}
+
+.hd_div1 {
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul > li::marker {
+  content: none;
+}
+
+.pos {
+  width: 40px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 10px;
+  line-height: 35px;
+}
+
+*[id*="icon-bigaud-"] {
+  cursor: pointer;
+}
+
+.hd_if {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.hd_section {
+  margin-right: 10px;
+}
+
+.hd_section::after {
+  content: ";";
+}
+.hd_section:last-child {
+  margin-right: 0;
+}
